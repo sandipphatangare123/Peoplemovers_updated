@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "714924763234",
+    "firebase_url": "https://peoplemovers-142919.firebaseio.com",
+    "project_id": "peoplemovers-142919",
+    "storage_bucket": "peoplemovers-142919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714924763234:android:59f1393810ca5088",
+        "android_client_info": {
+          "package_name": "com.peoplemovers.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714924763234-2m1jd0kigkmqc1mfo7flnaver3u986td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA319QLXgZyVLzBCKNXqeHRZI5HGbH_p6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

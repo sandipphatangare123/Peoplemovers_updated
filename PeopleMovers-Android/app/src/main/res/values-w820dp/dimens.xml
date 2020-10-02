@@ -1,0 +1,69 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">480dp</dimen>
+    <dimen name="s40dp">60dp</dimen>
+    <dimen name="s60dp">90dp</dimen>
+    <dimen name="s35dp">70dp</dimen>
+    <dimen name="s50dp">75dp</dimen>
+    <dimen name="s10dp">15dp</dimen>
+    <dimen name="s11dp">16dp</dimen>
+    <dimen name="s13dp">20dp</dimen>
+    <dimen name="ss110dp">200dp</dimen>
+    <dimen name="s20dp">30dp</dimen>
+    <dimen name="s15dp">21dp</dimen>
+    <dimen name="s16dp">24dp</dimen>
+    <dimen name="s64dp">96dp</dimen>
+    <dimen name="s30dp">45dp</dimen>
+    <dimen name="s140dp">210dp</dimen>
+    <dimen name="s70dp">105dp</dimen>
+    <dimen name="s100dp">150dp</dimen>
+    <dimen name="ss100dp">200dp</dimen>
+    <dimen name="s80dp">100dp</dimen>
+    <dimen name="s55dp">80dp</dimen>
+    <dimen name="s14dp">21dp</dimen>
+    <dimen name="s5dp">7dp</dimen>
+    <dimen name="s3dp">4dp</dimen>
+    <dimen name="s8dp">12dp</dimen>
+    <dimen name="s130dp">195dp</dimen>
+    <dimen name="s162dp">324dp</dimen>
+    <dimen name="s120dp">180dp</dimen>
+    <dimen name="s250dp">400dp</dimen>
+    <dimen name="s2dp">4dp</dimen>
+    <dimen name="s90dp">135dp</dimen>
+    <dimen name="s7dp">12dp</dimen>
+    <dimen name="s150dp">225dp</dimen>
+    <dimen name="s220dp">330dp</dimen>
+    <dimen name="s240dp">360dp</dimen>
+    <dimen name="s180dp">270dp</dimen>
+    <dimen name="s200dp">300dp</dimen>
+    <dimen name="s300dp">500dp</dimen>
+
+
+
+    <!--Text sizes-->
+    <dimen name="s5sp">7sp</dimen>
+    <dimen name="s14sp">21sp</dimen>
+    <dimen name="s18sp">27sp</dimen>
+    <dimen name="s20sp">30sp</dimen>
+    <dimen name="s22sp">34sp</dimen>
+    <dimen name="s40sp">80sp</dimen>
+    <dimen name="s31sp">62sp</dimen>
+    <dimen name="s23sp">36sp</dimen>
+    <dimen name="s10sp">15sp</dimen>
+    <dimen name="s16sp">24sp</dimen>
+    <dimen name="s12sp">18sp</dimen>
+    <dimen name="s8sp">12sp</dimen>
+    <dimen name="s25sp">40sp</dimen>
+    <dimen name="s28_5sp">28.5sp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+
+</resources>
+
+

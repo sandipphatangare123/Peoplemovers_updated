@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- <android.support.v4.widget.SwipeRefreshLayout
+         android:id="@+id/swipeContainer"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/screen"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+ -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.util.AdvancedWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.util.AdvancedWebView>
+
+        <ImageView
+            android:id="@+id/img_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pict"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_home"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="@dimen/s45dp"
+            android:layout_height="@dimen/s45dp"
+            android:layout_centerInParent="true"
+            android:progressDrawable="@drawable/circular_progress" />
+
+        <TextView
+            android:id="@+id/txt_sync_appdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/progress_bar_home"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/s10dp"
+            android:text="Loading app data"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/s45dp"
+            android:layout_height="@dimen/s45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/s10dp"
+            android:background="@mipmap/back"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+</RelativeLayout>

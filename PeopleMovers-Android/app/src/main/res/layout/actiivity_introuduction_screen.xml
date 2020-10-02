@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" />
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/s13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/s15dp"
+        app:dotsColor="@color/color_dot"
+        app:dotsSize="@dimen/s11dp"
+        app:dotsSpacing="@dimen/s8dp"
+        app:dotsWidthFactor="1"
+        app:progressMode="false"
+        app:selectedDotColor="@color/color_dot_selected" />
+
+
+    <RelativeLayout
+        android:id="@+id/rel_pager_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/s25dp"
+        android:layout_marginRight="@dimen/s25dp"
+        android:layout_marginBottom="@dimen/s60dp">
+
+        <TextView
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/s45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/s25dp"
+            android:background="@drawable/bg_rounded_corner"
+            android:gravity="center"
+            android:paddingLeft="@dimen/s45dp"
+            android:paddingRight="@dimen/s45dp"
+            android:text="@string/btn_next"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/s20sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/s45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="@dimen/s25dp"
+            android:background="@drawable/bg_rounded_corner_blue"
+            android:gravity="center"
+            android:paddingLeft="@dimen/s45dp"
+            android:paddingRight="@dimen/s45dp"
+            android:text="@string/btn_back"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/s20sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_lets_moving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rel_pager_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/s30dp"
+        android:letterSpacing="-0.03"
+        android:text="@string/txt_moving"
+        android:textColor="@color/color_lets_moving"
+        android:textSize="@dimen/s31sp"
+        android:visibility="visible" />
+
+</RelativeLayout>
